@@ -1,0 +1,19 @@
+[project]
+name = "olx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "1020vleydgod1020@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "selectolax>=1.0.0",
+]
+
+[project.scripts]
+olx = "olx:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
